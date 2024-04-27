@@ -1,4 +1,4 @@
-.nanum-pen-script-regular {
+.nanum{
     font-family: "Nanum Pen Script", cursive;
     font-weight: 400;
     font-style: normal;
@@ -17,6 +17,9 @@ body{
     display: grid;
     grid-template-rows: 0.1fr 1fr;
     background-color: #E3E4EA;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
 }
 .header{
     display: flex;
@@ -26,17 +29,76 @@ body{
 .header-box{
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
     background-color: #3C41B1;
     width: 300px;
     height: 50px;
     border-radius: 60px;;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .header-box a{
-    display: inline-block;
     color: white;
     text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-box a:hover{
+    background-color: #9b9dc3;
+    border-radius: 70px;
+    width: 30%;
+    height: 80%;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hello{
+    font-size: 70px;
+}
+
+.Hello {
+    margin: 0px 20px;
+    text-align: center;
+}
+.Hello span{
+    color:#92E452;
+    text-shadow: 0px 0px 10px #000;
+    font-size: 80px;
+}
+
+.description{
+    font-size: 30px;
+    width: 60%;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.main-box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 20px 0px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 5px solid  #3C41B1;
+    height: 60px;
+    width: 230px;
+    border-radius: 70px;
+    color: #3C41B1;
+}
+
+.main-box a:hover{
+    background-color: #9b9dc3;
 }
